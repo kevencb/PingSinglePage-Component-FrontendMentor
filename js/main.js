@@ -14,11 +14,9 @@ function validateEmail(inputEmailValue){
         inputEmail.style.border = '1px solid #4C7BF3'
         textError.style.visibility = 'hidden'
         textError.style.marginBottom = '0px'
-        console.log('Good')
     }else{
         inputEmail.style.border = '1px solid #FF5466'
         textError.style.visibility = 'visible'
         textError.style.marginBottom = '12px'
-        console.log('Bad')
     }
 }
