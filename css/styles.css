@@ -20,12 +20,11 @@ body{
     font-weight: 300;
 }
 
-.main{
+.header{
     width: 90%;
+    margin: 80px auto 0px;
     display: flex;
-    margin: 80px auto 40px;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -51,12 +50,21 @@ body{
     font-size: 12px;
 }
 
+.main{
+    width: 90%;
+    display: flex;
+    margin: 32px auto 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 form{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 32px auto 40px;
+    margin-bottom: 40px;
 }
 
 .input__container input[type=email], input[type=submit]{
@@ -77,7 +85,8 @@ form{
     font-style: italic;
     color: var(--Light_Red);
     visibility: hidden;
-    margin: 6px 0 0 32px;
+    margin-top: 6px;
+    text-align: center;
 }
 
 input[type=submit]{
@@ -205,6 +214,8 @@ footer a{
 
     .error{
         font-size: 12px;
+        margin-left: 32px;
+        text-align: left;
     }
 
     .dashboard{
